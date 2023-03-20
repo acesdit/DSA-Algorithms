@@ -67,3 +67,4 @@ int main() {
   cout<<"\nElement is present at "<<res<<" position of array";  
   return 0;  
 }  
+
