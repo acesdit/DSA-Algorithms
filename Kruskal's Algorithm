@@ -1,8 +1,12 @@
 // Kruskal's Algorithm Explanation
 
-Kruskal's algorithm to find the minimum cost spanning tree uses the greedy approach. This algorithm treats the graph as a forest and every node it has as an individual tree. A tree connects to another only and only if, it has the least cost among all available options and does not violate MST properties.
+Kruskal's algorithm to find the minimum cost spanning tree uses the greedy approach. 
+This algorithm treats the graph as a forest and every node it has as an individual tree. 
+A tree connects to another only and only if, it has the least cost among all available options and does not violate MST properties.
+
 
 // Kruskal's Algorithm
+
 
 Step 1: Create a forest F in such a way that every vertex of the graph is a separate tree.  
 Step 2: Create a set E that contains all the edges of the graph.  
@@ -14,7 +18,9 @@ ELSE
 Discard the edge  
 Step 6: END
 
+
 //Code
+
 
 #include <iostream>    
 #include <algorithm>    
