@@ -13,8 +13,13 @@ Why is it so important❓
 How exactly is it helpful❓
 
 It helps in following aspects:
+
 🔸Problem- Solving
+
 🔸Interview preparation 
+
 🔸Improved Code Quality
+
 🔸Flexibility 
+
 🔸Resource Utilization
