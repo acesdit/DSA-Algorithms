@@ -1,8 +1,11 @@
 # Kadane's Algorithm Explained
 
-Kadane’s Algorithm is an iterative dynamic programming algorithm. It calculates the maximum sum subarray ending at a particular position by using the maximum sum subarray ending at the previous position
+Kadane’s Algorithm is an iterative dynamic programming algorithm. 
+It calculates the maximum sum subarray ending at a particular position by using the maximum sum subarray ending at the previous position.
+
 
 # Kadane's Algorithm 
+
 
 Step 1: We have to initialize max_till_now = 0
 
@@ -18,7 +21,9 @@ Step 6: If (max_till_now < max_ending) then we have to set max_till_now = max_en
 
 Step 7: We have to return max_till_now
 
+
 # Code
+
 
 # defining the function to find the maximum subarray sum  
 def max_Subarray_Sum(my_array, array_size):  
