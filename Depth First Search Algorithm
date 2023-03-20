@@ -1,8 +1,13 @@
 /* DFS Explanaiton */
 
-It is a recursive algorithm to search all the vertices of a tree data structure or a graph. The depth-first search (DFS) algorithm starts with the initial node of graph G and goes deeper until we find the goal node or the node with no children. Because of the recursive nature, stack data structure can be used to implement the  DFS algorithm. The process of implementing the DFS is similar to the BFS algorithm.
+It is a recursive algorithm to search all the vertices of a tree data structure or a graph. 
+The depth-first search (DFS) algorithm starts with the initial node of graph G and goes deeper until we find the goal node or the node with no children. 
+Because of the recursive nature, stack data structure can be used to implement the  DFS algorithm. 
+The process of implementing the DFS is similar to the BFS algorithm.
+
 
 /* DFS Algorithm */
+
 
 Step 1: SET STATUS = 1 (ready state) for each node in G
 
@@ -18,7 +23,9 @@ Step 5: Push on the stack all the neighbors of N that are in the ready state (wh
 
 Step 6: EXIT
 
+
 /* Code */
+
 
 import java.util.*;  
   
