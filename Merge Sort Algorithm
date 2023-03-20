@@ -1,3 +1,7 @@
+//Merge Sort Explanation
+
+Merge sort is similar to the quick sort algorithm as it uses the divide and conquer approach to sort the elements. It is one of the most popular and efficient sorting algorithm. It divides the given list into two equal halves, calls itself for the two halves and then merges the two sorted halves. We have to define the merge() function to perform the merging.
+
 //Merge Sort Algorithm
 
 MERGE_SORT(arr, beg, end)  
